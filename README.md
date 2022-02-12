@@ -18,6 +18,7 @@ Read the contents of the CSV file using df.read function
 End the program.
 
 ## PROGRAM:
+```
 #programm developed by:prethiveerajan P
 #refrence number:21500340
 import pandas as pd
@@ -25,7 +26,8 @@ df=pd.read_csv('nba.csv')
 print(df.head(10))
 print(df.tail(10))
 print("coloumn",len(df.axes[0]))
-print("rows",len(df.axes[1])) 
+print("rows",len(df.axes[1]))
+``` 
 
 ## OUTPUT:
 ![OUTPUT](pd.png)
